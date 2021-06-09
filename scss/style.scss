@@ -1,0 +1,11 @@
+@import "sections";
+@import "footer";
+@import "glassmorphism";
+@import "variables";
+@import "banner-icon";
+@import "extend";
+@import "mixins";
+
+body{
+    @extend %bg-image; 
+}

@@ -1,0 +1,22 @@
+@import "variables";
+
+/* Footer */
+
+@mixin footer($color){
+    color: $color;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Facebook */
+@mixin siguenos($btn-redes){
+    background-color: nth($colores, 4);
+    bottom: 0;
+    right: 0;
+    border-radius: 5px;
+    color: nth($colores, 6);
+    cursor: pointer; 
+    position: fixed;
+    z-index: $btn-redes;
+}

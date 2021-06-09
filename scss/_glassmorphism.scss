@@ -1,0 +1,23 @@
+@import "variables";
+
+/* Efecto Glassmorphism */ 
+.carta{
+    border-radius: 1rem!important;
+    backdrop-filter: blur(1rem)!important;
+    background-color: rgba(255, 255, 255, 0.060)!important;
+    border: .1rem solid rgba(255, 255, 255, 0.18)!important;
+    color: nth($colores, 6)!important;
+    display: flex!important;
+    justify-content: center!important;
+    margin: 10px 20px!important;
+}
+.carta-2{
+    border-radius: 1rem!important;
+    backdrop-filter: blur(1rem)!important;
+    background-color: rgba(255, 255, 255, 0.060)!important;
+    border: .1rem solid rgba(255, 255, 255, 0.18)!important;
+    color: nth($colores, 6)!important;
+    font-size:1.5rem!important;
+    font-family: Arial, Helvetica, sans-serif!important;
+    margin: 10px auto!important;
+}

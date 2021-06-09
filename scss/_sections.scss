@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import "variables";
+@import "extend";
+
+/* Section 1 */
+.logo{
+    z-index: 20;
+    cursor: pointer;
+}
+/* Fin section 1 */
+
+/* Section 2 */
+.contenedor{
+    width: nth($tamaños, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: nth($tamaños, 5);
+    @media (max-width: 576px){
+        width: nth($tamaños, 1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: nth($tamaños, 7)/1.7;
+    }
+    figure{
+        position: relative;
+        height: nth($tamaños, 3);
+        width: nth($tamaños,4);
+        overflow: hidden;
+        border-radius: 6px;
+        box-shadow: 25px 0px 25px 0px nth($colores, 3);
+        cursor: pointer;
+        &:hover > .capa{
+            opacity: 1;
+            visibility: visible;
+        }
+        &:hover > .capa h3{
+            margin-top: 40px;
+            margin-bottom: 5px;    
+        }
+        @media (max-width: 576px){
+            position: relative;
+            height: nth($tamaños, 3)/2;
+            width: nth($tamaños, 4)/2;
+            overflow: hidden;
+            border-radius: 6px;
+            box-shadow: 25px 0px 25px 0px nth($colores, 3);
+            cursor: pointer;
+        }
+        
+        .capa{
+            position: absolute;
+            top: 0;
+            height: nth($tamaños, 1);
+            width: nth($tamaños, 1);
+            background: nth($colores, 5);
+            opacity: 0;
+            transition: all 500ms ease-in-out;
+            visibility: hidden;
+            text-align: center;
+            h3{
+                color: nth($colores, 6);
+                font-weight: nth($tamaños, 6);
+                margin-bottom: 120px;
+                transition: all 500ms ease-in-out;
+                margin-top: 30px;
+            }
+            p{
+                color: nth($colores, 6);
+                font-size: 15px;
+                line-height: 1.5;
+                width: nth($tamaños, 1);
+                max-width: 220px;
+                margin: auto;
+            }    
+        }
+        img{
+            @extend %image-size;
+        }
+    }
+}
+/* Fin secion 2 */
+
+
+/* Contenedor imagenes de redes sociales */
+
+.contedor-img{
+    width: 550px!important;
+    height: 550px!important;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px auto;
+    align-items: center;
+
+    @media (max-width: 576px){
+        width: 450px;
+        height: 450px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px auto
+    }
+}
+
+.social-red{
+    width: nth($tamaños, 15);
+    height: nth($tamaños, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    @media (max-width: 576px){
+        width: nth($tamaños, 16);
+        height: nth($tamaños, 16);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

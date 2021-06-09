@@ -1,0 +1,41 @@
+/* Banners e iconos de la página */
+@import "variables";
+@import "extend";
+.icono{
+    @extend %icono;
+}
+
+/* Iconos de método de pago */
+.icono2{
+    @extend %icono-2;
+}
+
+/* Redes Sociales*/
+.redes{
+    @extend %redes;
+}
+
+.item{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 200; 
+}
+
+/* Tamaño del banner */
+.banner{
+    @extend %banner;
+}
+
+/* Logo de Facebook */
+.siguenos{
+    @include siguenos(200)
+}
+
+.mar{
+    margin: 15px auto;
+}
+
+.hot-sale{
+    @extend %hot-sale;
+}

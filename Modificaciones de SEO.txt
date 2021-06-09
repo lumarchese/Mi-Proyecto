@@ -1,0 +1,14 @@
+1) Hice una descripción de la página, que hace, a que se dedica la empresa.
+2) En el siguiente keywords puse las palabras clave para el navegador, los items de la página con las importancia.
+3) Titulo de la miniatura.
+4) Que es el link que se envia, en este caso una página web.
+5) Foto de la miniatura, en este caso el logo de compuworld.
+6) Descripción de la miniatura.
+7) El autor, osea yo en este caso.
+8) Idioma.
+
+ En la página 404 not found le puse los estilos dentro del html,
+ resetie los valores, cambie el color del background, coloque un
+ botón para volver a la página principal, y le di estilos tanto
+ al botón como al H1 y P, centre todo para que sea mas amigable
+ con un contenedor y listo.

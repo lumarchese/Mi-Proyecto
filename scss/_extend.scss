@@ -39,7 +39,8 @@
     display: flex;
     justify-content: center;
     display: flex;
-    justify-content: space-around;   
+    justify-content: space-around; 
+    margin:60px auto!important; 
 }
 
 %icono-2{
@@ -74,5 +75,18 @@
     }
     &:hover{
         transform: translate(10px,10px);
+    }
+}
+
+%sociales{
+    margin: 20px auto;
+    cursor: pointer;
+    height: 128px;
+    width: 128px;
+    @media (max-width: 768px){
+        margin: 20px auto;
+        cursor: pointer;
+        height: 64px;
+        width: 64px;
     }
 }

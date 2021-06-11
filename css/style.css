@@ -37,6 +37,7 @@ body {
   justify-content: center;
   display: flex;
   justify-content: space-around;
+  margin: 60px auto !important;
 }
 
 .icono2 {
@@ -76,6 +77,21 @@ body {
 }
 .icono:hover {
   transform: translate(10px, 10px);
+}
+
+.socials {
+  margin: 20px auto;
+  cursor: pointer;
+  height: 128px;
+  width: 128px;
+}
+@media (max-width: 768px) {
+  .socials {
+    margin: 20px auto;
+    cursor: pointer;
+    height: 64px;
+    width: 64px;
+  }
 }
 
 /* Section 1 */
@@ -268,6 +284,7 @@ body {
   justify-content: center;
   display: flex;
   justify-content: space-around;
+  margin: 60px auto !important;
 }
 
 .icono2 {
@@ -307,6 +324,21 @@ body {
 }
 .icono:hover {
   transform: translate(10px, 10px);
+}
+
+.socials {
+  margin: 20px auto;
+  cursor: pointer;
+  height: 128px;
+  width: 128px;
+}
+@media (max-width: 768px) {
+  .socials {
+    margin: 20px auto;
+    cursor: pointer;
+    height: 64px;
+    width: 64px;
+  }
 }
 
 /* Iconos de método de pago */
@@ -365,6 +397,7 @@ body {
   justify-content: center;
   display: flex;
   justify-content: space-around;
+  margin: 60px auto !important;
 }
 
 .icono2 {
@@ -404,6 +437,21 @@ body {
 }
 .icono:hover {
   transform: translate(10px, 10px);
+}
+
+.socials {
+  margin: 20px auto;
+  cursor: pointer;
+  height: 128px;
+  width: 128px;
+}
+@media (max-width: 768px) {
+  .socials {
+    margin: 20px auto;
+    cursor: pointer;
+    height: 64px;
+    width: 64px;
+  }
 }
 
 /* Variables de colores */

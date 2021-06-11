@@ -97,9 +97,9 @@
     margin-bottom: 10px auto;
     align-items: center;
 
-    @media (max-width: 576px){
-        width: 450px;
-        height: 450px;
+    @media (max-width: 768px){
+        width: 750px;
+        height: 750px;
         display: flex;
         justify-content: center;
         margin-bottom: 10px auto
@@ -113,7 +113,7 @@
     justify-content: center;
     align-items: center;
     
-    @media (max-width: 576px){
+    @media (max-width: 768px){
         width: nth($tamaños, 16);
         height: nth($tamaños, 16);
         display: flex;

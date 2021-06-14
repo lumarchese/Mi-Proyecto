@@ -47,13 +47,13 @@ body {
   height: 143px;
   width: 200px;
 }
-@media (max-width: 768px) {
+@media (max-width: 577px) {
   .icono2 {
     margin: 10px 55px;
     padding: 25px;
     border-radius: 150px;
-    height: 110px;
-    width: 153.8461538462px;
+    height: 100px;
+    width: 100px;
   }
 }
 
@@ -65,14 +65,14 @@ body {
   width: 296px;
   height: 296px;
 }
-@media (max-width: 768px) {
+@media (max-width: 577px) {
   .icono {
     margin: 0 30px;
     padding: 20px;
     transition: all 2s;
     cursor: pointer;
-    width: 174.1176470588px;
-    height: 174.1176470588px;
+    width: 128px;
+    height: 128px;
   }
 }
 .icono:hover {
@@ -85,7 +85,7 @@ body {
   height: 128px;
   width: 128px;
 }
-@media (max-width: 768px) {
+@media (max-width: 577px) {
   .socials {
     margin: 20px auto;
     cursor: pointer;
@@ -109,13 +109,13 @@ body {
   align-items: center;
   height: 350px;
 }
-@media (max-width: 576px) {
+@media (max-width: 577px) {
   .contenedor {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 294.1176470588px;
+    height: 280px;
   }
 }
 .contenedor figure {
@@ -135,7 +135,7 @@ body {
   margin-top: 40px;
   margin-bottom: 5px;
 }
-@media (max-width: 576px) {
+@media (max-width: 577px) {
   .contenedor figure {
     position: relative;
     height: 100px;
@@ -182,7 +182,7 @@ body {
   margin-bottom: 10px auto;
   align-items: center;
 }
-@media (max-width: 768px) {
+@media (max-width: 577px) {
   .contedor-img {
     width: 750px;
     height: 750px;
@@ -199,7 +199,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 768px) {
+@media (max-width: 577px) {
   .social-red {
     width: 64px;
     height: 64px;
@@ -294,13 +294,13 @@ body {
   height: 143px;
   width: 200px;
 }
-@media (max-width: 768px) {
+@media (max-width: 577px) {
   .icono2 {
     margin: 10px 55px;
     padding: 25px;
     border-radius: 150px;
-    height: 110px;
-    width: 153.8461538462px;
+    height: 100px;
+    width: 100px;
   }
 }
 
@@ -312,14 +312,14 @@ body {
   width: 296px;
   height: 296px;
 }
-@media (max-width: 768px) {
+@media (max-width: 577px) {
   .icono {
     margin: 0 30px;
     padding: 20px;
     transition: all 2s;
     cursor: pointer;
-    width: 174.1176470588px;
-    height: 174.1176470588px;
+    width: 128px;
+    height: 128px;
   }
 }
 .icono:hover {
@@ -332,7 +332,7 @@ body {
   height: 128px;
   width: 128px;
 }
-@media (max-width: 768px) {
+@media (max-width: 577px) {
   .socials {
     margin: 20px auto;
     cursor: pointer;
@@ -407,13 +407,13 @@ body {
   height: 143px;
   width: 200px;
 }
-@media (max-width: 768px) {
+@media (max-width: 577px) {
   .icono2 {
     margin: 10px 55px;
     padding: 25px;
     border-radius: 150px;
-    height: 110px;
-    width: 153.8461538462px;
+    height: 100px;
+    width: 100px;
   }
 }
 
@@ -425,14 +425,14 @@ body {
   width: 296px;
   height: 296px;
 }
-@media (max-width: 768px) {
+@media (max-width: 577px) {
   .icono {
     margin: 0 30px;
     padding: 20px;
     transition: all 2s;
     cursor: pointer;
-    width: 174.1176470588px;
-    height: 174.1176470588px;
+    width: 128px;
+    height: 128px;
   }
 }
 .icono:hover {
@@ -445,7 +445,7 @@ body {
   height: 128px;
   width: 128px;
 }
-@media (max-width: 768px) {
+@media (max-width: 577px) {
   .socials {
     margin: 20px auto;
     cursor: pointer;
